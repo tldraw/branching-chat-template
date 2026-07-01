@@ -11,7 +11,7 @@
 	"type": "module",
 	"scripts": {
 		"build": "tsc && vite build",
-		"dev": "vite",
+		"dev": "vite --host",
 		"preview": "vite preview"
 	},
 	"dependencies": {
@@ -23,7 +23,7 @@
 		"radix-ui": "^1.4.2",
 		"react": "^19.2.1",
 		"react-dom": "^19.2.1",
-		"tldraw": "^5.1.1",
+		"tldraw": "^5.2.0",
 		"wrangler": "^4.75.0",
 		"zod": "^4.1.8"
 	},
@@ -33,6 +33,6 @@
 		"@types/react-dom": "^19.2.3",
 		"@vitejs/plugin-react": "^6.0.1",
 		"typescript": "^5.8.3",
-		"vite": "^8.0.1"
+		"vite": "^8.0.16"
 	}
 }
